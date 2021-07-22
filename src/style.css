@@ -1,0 +1,124 @@
+*{   
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+body {
+    background-image: url(b8.jpg);
+    margin: 0;
+}
+
+div.a {
+    color: #C22968;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+div.b {
+    color: #869090;
+    font-size: 25px;
+    margin-left: 5%;
+}
+div.c {
+    color: #75183E;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+
+.offset {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.textarea1 {
+    display: block;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 16px;
+    padding: 30px 30px;
+    width: 500px;
+    height: 100px;
+}
+
+.textarea1::placeholder{
+    color: #869090;
+    font-style: italic;
+}
+
+.line {
+    height: 1px;
+    background-color: #E6B098;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textarea2 {
+    display: block;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 16px;
+    padding: 40px 40px;
+    width: 500px;
+    height: 100px;
+}
+
+.textarea2::placeholder {
+    color:#869090;
+    font-style: normal;
+}
+
+.bttn-container{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 5px;
+    text-align: center;   
+}
+
+.bttn{
+    background-color: #C22968;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    border: 2px solid #C22968;
+    padding: 8px 15px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.5s, background 0.5s;
+}
+
+.bttn:hover{
+    color: #C25D87;
+    background-color: transparent;
+
+}
+
+.bttn.round{
+    border-radius: 15px;
+}
+
+.bttn:active{
+    box-shadow: inset 0 0 20px #F1DEE0;
+}
+
+.footer {
+position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: #8C4864;
+   text-align: center;
+}
