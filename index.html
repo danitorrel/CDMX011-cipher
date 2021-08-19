@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Wasquerade</title>
+	<link rel="stylesheet" href="style.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="a">Wasquerade</div>
+	<div class="b"><i> dressing up your voice··· </i></div>
+	<div class="c">Please select a shift, then you're free to say anything you want, we'll cover for you</div><br>
+		<div class="offset"><input type="number" id="offset" min="1" max="100000" placeholder="shift"></div>	
+		<textarea class="textarea1" id="input" placeholder="Speak out..."></textarea><br>
+		<div class="line"></div><br>
+    	<textarea class="textarea2" id="output" placeholder="..." readonly></textarea><br>
+      	<div class="bttn-container">
+				<button class="bttn round" id="encrypt" type="button">encrypt</button>
+				<button class="bttn round" id="decrypt" type="button">decrypt</button>
+        		<button class="bttn round" id="btn3" type="button">clear</button>
+      </div>
+	<footer class="footer">Created by Selavý | © 2021 All rights reserved</footer>
+  <script src="cipher.js" type="module"></script>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
